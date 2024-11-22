@@ -102,7 +102,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="917,1176" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="917,1292" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="bool" />
     </Sequence.Variables>
@@ -111,13 +111,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: The PC Plan: Prevent Diseases with Diet and Exercise" sap:VirtualizedContainerService.HintSize="552,1153" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="False" ScopeGuid="1cdd77b0-8da0-4e15-83e9-f77ef6d68a6b" Timeout="30" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: The PC Plan: Prevent Diseases with Diet and Exercise" sap:VirtualizedContainerService.HintSize="552,1269" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="False" ScopeGuid="1cdd77b0-8da0-4e15-83e9-f77ef6d68a6b" Timeout="30" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="518,912" sap2010:WorkflowViewState.IdRef="Sequence_10">
+          <Sequence sap:VirtualizedContainerService.HintSize="518,1028" sap2010:WorkflowViewState.IdRef="Sequence_10">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Int32" Name="count" />
             </Sequence.Variables>
@@ -126,6 +126,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,118" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello World&quot;]" />
             <Assign sap:VirtualizedContainerService.HintSize="484,115" sap2010:WorkflowViewState.IdRef="Assign_1">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Boolean">[bool]</OutArgument>
